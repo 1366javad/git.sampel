@@ -1,3 +1,5 @@
+
+@import url(responsive.css);
 *{
     margin: 0;
     padding: 0;
@@ -160,9 +162,15 @@ background-color: #79dfc5;
         width: 150px;
         height: 200px;
     }
-    .slider img{
+    .slider{
+        margin: 50px 0;
+    }
+    .slider-2 img{
         width: 600px;
         height: 450px;
+        object-fit: cover;
+        display: block;
+       z-index: -1;
     }
 }
 @media screen and (max-width: 700px){
@@ -179,7 +187,7 @@ background-color: #79dfc5;
         margin: 30px 10px;
     }
 }
-.slider{
+.slider-2{
    width: 100%;
     max-height: 450px;
     position: relative;
@@ -192,19 +200,19 @@ background-color: #79dfc5;
    left: 0;
    top: -30px;
 }
-.slider img{
+.slider-2 img{
   width: 900px; 
 height: 500px;
  object-fit: cover;
  
 }
-.slider h3{
+.slider-2 h3{
     margin: 20px 0;
     font-size: 34px;
     position: relative;
 
 }
-.slider h3::before{
+.slider-2 h3::before{
     content: "";
     width: 250px;
     height: 3px;
@@ -213,6 +221,63 @@ height: 500px;
  left: -14px;
     position: absolute;
 }
+/*********** start-title main **************/
+.wrapper{
+    border-top: 2px solid #868383;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-top: 60px;
+    background:linear-gradient(45deg, blue, #fff, green) ;
+  display: flex;
+  justify-content: space-around;
+}
+.row-1{
+    min-width: 60%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+.row-1 h3{
+    margin: 30px 0;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+}
+.row-1 h3 span{
+    color: #ef7d03;
+}
+.row-1 img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    position: absolute;
+    margin-left: 320px;
+    border-radius: 27px; 
+}
+.row-1 p{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 34px;
+ text-align: justify;
+ display: block;
+}
+.row-2{
+    min-width: 40%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+.row-2 img{
+width: 400px;
+height: 300px;
+object-fit: cover;
+display: block;
+}
+
+/*********** end-title main **************/
 
 
 
