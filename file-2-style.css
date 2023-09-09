@@ -233,7 +233,7 @@ height: 500px;
   justify-content: space-around;
 }
 .row-1{
-    min-width: 400px;
+    min-width: 60%;
     height: 100%;
     display: block;
     position: relative;
@@ -257,10 +257,18 @@ height: 500px;
     border-radius: 27px; 
 }
 .row-1 p{
+    width: 100%;
     font-size: 18px;
     font-weight: 600;
     line-height: 34px;
  text-align: justify;
+ display: block;
+}
+.row-2{
+    min-width: 40%;
+    height: 100%;
+    display: block;
+    position: relative;
 }
 .row-2 img{
 width: 400px;
