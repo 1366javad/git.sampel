@@ -228,7 +228,7 @@ height: 500px;
     height: 300px;
     position: relative;
     margin-top: 60px;
-    background:linear-gradient(45deg, blue, #e0dede, green) ;
+    background:linear-gradient(45deg, blue, #d7d7d7, green) ;
   display: flex;
   justify-content: space-around;
 }
