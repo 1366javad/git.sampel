@@ -230,16 +230,28 @@ height: 500px;
   display: flex;
   justify-content: space-around;
 }
+.row-1{
+    min-width: 400px;
+    height: 100%;
+    display: block;
+    position: relative;
+}
 .row-1 h3{
     margin: 30px 0;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+}
+.row-1 h3 span{
+    color: #ef7d03;
 }
 .row-1 img{
     width: 100px;
     height: 100px;
     object-fit: cover;
-    display: inline-block;
+    display: block;
     position: absolute;
-    margin-left: 247px;
+    margin-left: 320px;
     border-radius: 27px; 
 }
 .row-1 p{
